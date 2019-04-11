@@ -1,0 +1,4 @@
+Installing library in C:\Users\nyna-\Documents\Study\Pelevin\endgame\.cabal-sandbox\x86_64-windows-ghc-8.6.3\th-abstraction-0.2.11.0-DAhuCgi08HTBWsDjm9nrOq
+ ( src\Language\Haskell\TH\Datatype\Internal.hs, dist\dist-sandbox-37ba25ce\build\Language\Haskell\TH\Datatype\Internal.o )
+[2 of 2] Compiling Language.Haskell.TH.Datatype ( src\Language\Haskell\TH\Datatype.hs, dist\dist-sandbox-37ba25ce\build\Language\Haskell\TH\Datatype.o )
+cabal: Leaving directory 'C:\cygwin64\tmp\cabal-tmp-3226\th-abstraction-0.2.11.0'

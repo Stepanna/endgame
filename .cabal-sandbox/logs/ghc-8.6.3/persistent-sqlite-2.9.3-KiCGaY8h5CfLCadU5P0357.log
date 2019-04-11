@@ -1,0 +1,4 @@
+Installing library in C:\Users\nyna-\Documents\Study\Pelevin\endgame\.cabal-sandbox\x86_64-windows-ghc-8.6.3\persistent-sqlite-2.9.3-KiCGaY8h5CfLCadU5P0357
+, dist\dist-sandbox-37ba25ce\build\Database\Sqlite.o )
+[2 of 2] Compiling Database.Persist.Sqlite ( Database\Persist\Sqlite.hs, dist\dist-sandbox-37ba25ce\build\Database\Persist\Sqlite.o )
+cabal: Leaving directory 'C:\cygwin64\tmp\cabal-tmp-9176\persistent-sqlite-2.9.3'

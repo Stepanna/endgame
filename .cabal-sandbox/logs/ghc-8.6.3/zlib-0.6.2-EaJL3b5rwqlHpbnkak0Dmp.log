@@ -1,0 +1,7 @@
+Installing library in C:\Users\nyna-\Documents\Study\Pelevin\endgame\.cabal-sandbox\x86_64-windows-ghc-8.6.3\zlib-0.6.2-EaJL3b5rwqlHpbnkak0Dmp
+37ba25ce\build\Codec\Compression\Zlib\Stream.hs, dist\dist-sandbox-37ba25ce\build\Codec\Compression\Zlib\Stream.o )
+[2 of 5] Compiling Codec.Compression.Zlib.Internal ( Codec\Compression\Zlib\Internal.hs, dist\dist-sandbox-37ba25ce\build\Codec\Compression\Zlib\Internal.o )
+[3 of 5] Compiling Codec.Compression.Zlib.Raw ( Codec\Compression\Zlib\Raw.hs, dist\dist-sandbox-37ba25ce\build\Codec\Compression\Zlib\Raw.o )
+[4 of 5] Compiling Codec.Compression.Zlib ( Codec\Compression\Zlib.hs, dist\dist-sandbox-37ba25ce\build\Codec\Compression\Zlib.o )
+[5 of 5] Compiling Codec.Compression.GZip ( Codec\Compression\GZip.hs, dist\dist-sandbox-37ba25ce\build\Codec\Compression\GZip.o )
+cabal: Leaving directory 'C:\cygwin64\tmp\cabal-tmp-3224\zlib-0.6.2'

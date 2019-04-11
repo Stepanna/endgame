@@ -1,0 +1,11 @@
+Installing library in C:\Users\nyna-\Documents\Study\Pelevin\endgame\.cabal-sandbox\x86_64-windows-ghc-8.6.3\fast-logger-2.4.14-Kk2QlTI7jUJi1xVN8YVW7
+\FastLogger\FileIO.hs, dist\dist-sandbox-37ba25ce\build\System\Log\FastLogger\FileIO.o )
+[2 of 9] Compiling System.Log.FastLogger.IORef ( System\Log\FastLogger\IORef.hs, dist\dist-sandbox-37ba25ce\build\System\Log\FastLogger\IORef.o )
+[3 of 9] Compiling System.Log.FastLogger.LogStr ( System\Log\FastLogger\LogStr.hs, dist\dist-sandbox-37ba25ce\build\System\Log\FastLogger\LogStr.o )
+[4 of 9] Compiling System.Log.FastLogger.IO ( System\Log\FastLogger\IO.hs, dist\dist-sandbox-37ba25ce\build\System\Log\FastLogger\IO.o )
+[5 of 9] Compiling System.Log.FastLogger.Logger ( System\Log\FastLogger\Logger.hs, dist\dist-sandbox-37ba25ce\build\System\Log\FastLogger\Logger.o )
+[6 of 9] Compiling System.Log.FastLogger.Types ( System\Log\FastLogger\Types.hs, dist\dist-sandbox-37ba25ce\build\System\Log\FastLogger\Types.o )
+[7 of 9] Compiling System.Log.FastLogger.File ( System\Log\FastLogger\File.hs, dist\dist-sandbox-37ba25ce\build\System\Log\FastLogger\File.o )
+[8 of 9] Compiling System.Log.FastLogger.Date ( System\Log\FastLogger\Date.hs, dist\dist-sandbox-37ba25ce\build\System\Log\FastLogger\Date.o )
+[9 of 9] Compiling System.Log.FastLogger ( System\Log\FastLogger.hs, dist\dist-sandbox-37ba25ce\build\System\Log\FastLogger.o )
+cabal: Leaving directory 'C:\cygwin64\tmp\cabal-tmp-3224\fast-logger-2.4.14'

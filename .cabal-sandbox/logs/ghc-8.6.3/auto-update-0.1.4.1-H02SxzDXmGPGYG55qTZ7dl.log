@@ -1,0 +1,6 @@
+Installing library in C:\Users\nyna-\Documents\Study\Pelevin\endgame\.cabal-sandbox\x86_64-windows-ghc-8.6.3\auto-update-0.1.4.1-H02SxzDXmGPGYG55qTZ7dl
+s, dist\dist-sandbox-37ba25ce\build\Control\AutoUpdate.o )
+[2 of 4] Compiling Control.AutoUpdate.Util ( Control\AutoUpdate\Util.hs, dist\dist-sandbox-37ba25ce\build\Control\AutoUpdate\Util.o )
+[3 of 4] Compiling Control.Debounce ( Control\Debounce.hs, dist\dist-sandbox-37ba25ce\build\Control\Debounce.o )
+[4 of 4] Compiling Control.Reaper   ( Control\Reaper.hs, dist\dist-sandbox-37ba25ce\build\Control\Reaper.o )
+cabal: Leaving directory 'C:\Users\nyna-\AppData\Local\Temp\cabal-tmp-10265\auto-update-0.1.4.1'

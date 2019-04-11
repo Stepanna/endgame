@@ -1,0 +1,57 @@
+Installing library in C:\Users\nyna-\Documents\Study\Pelevin\endgame\.cabal-sandbox\x86_64-windows-ghc-8.6.3\aeson-compat-0.3.9-3RKZOYOp4sz1UbVrJoVvEN
+hs, dist\dist-sandbox-37ba25ce\build\Data\Aeson\Compat.o )
+
+src\Data\Aeson\Compat.hs:119:1: warning: [-Wunused-imports]
+    The import of `typeMismatch'
+    from module `Data.Aeson.Types' is redundant
+    |
+119 | import           Data.Aeson.Types (Parser, modifyFailure, typeMismatch, defaultOptions)
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src\Data\Aeson\Compat.hs:125:1: warning: [-Wunused-imports]
+    The qualified import of `Data.Text.Encoding' is redundant
+      except perhaps to import instances from `Data.Text.Encoding'
+    To import instances alone, use: import Data.Text.Encoding()
+    |
+125 | import qualified Data.Text.Encoding as TE
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src\Data\Aeson\Compat.hs:158:1: warning: [-Wdeprecations]
+    Module `Data.Attoparsec.Number' is deprecated:
+      This module will be removed in the next major release.
+    |
+158 | import Data.Attoparsec.Number (Number (..))
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src\Data\Aeson\Compat.hs:457:26: warning: [-Wdeprecations]
+    In the use of type constructor or class `Number'
+    (imported from Data.Attoparsec.Number):
+    Deprecated: "This module will be removed in the next major release."
+    |
+457 | withNumber :: String -> (Number -> Parser a) -> Value -> Parser a
+    |                          ^^^^^^
+
+src\Data\Aeson\Compat.hs:462:48: warning: [-Wdeprecations]
+    In the use of type constructor or class `Number'
+    (imported from Data.Attoparsec.Number):
+    Deprecated: "This module will be removed in the next major release."
+    |
+462 | scientificToNumber :: Scientific.Scientific -> Number
+    |                                                ^^^^^^
+
+src\Data\Aeson\Compat.hs:464:27: warning: [-Wdeprecations]
+    In the use of data constructor `D'
+    (imported from Data.Attoparsec.Number):
+    Deprecated: "This module will be removed in the next major release."
+    |
+464 |     | e < 0 || e > 1024 = D $ Scientific.toRealFloat s
+    |                           ^
+
+src\Data\Aeson\Compat.hs:465:27: warning: [-Wdeprecations]
+    In the use of data constructor `I'
+    (imported from Data.Attoparsec.Number):
+    Deprecated: "This module will be removed in the next major release."
+    |
+465 |     | otherwise         = I $ c * 10 ^ e
+    |                           ^
+cabal: Leaving directory 'C:\cygwin64\tmp\cabal-tmp-6256\aeson-compat-0.3.9'

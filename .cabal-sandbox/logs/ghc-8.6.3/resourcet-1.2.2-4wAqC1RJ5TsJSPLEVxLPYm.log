@@ -1,0 +1,22 @@
+Installing library in C:\Users\nyna-\Documents\Study\Pelevin\endgame\.cabal-sandbox\x86_64-windows-ghc-8.6.3\resourcet-1.2.2-4wAqC1RJ5TsJSPLEVxLPYm
+.hs, dist\dist-sandbox-37ba25ce\build\Data\Acquire\Internal.o )
+[2 of 5] Compiling Control.Monad.Trans.Resource.Internal ( Control\Monad\Trans\Resource\Internal.hs, dist\dist-sandbox-37ba25ce\build\Control\Monad\Trans\Resource\Internal.o )
+
+Control\Monad\Trans\Resource\Internal.hs:43:1: warning: [-Wdeprecations]
+    Module `Control.Monad.Trans.List' is deprecated:
+      This transformer is invalid on most monads
+   |
+43 | import Control.Monad.Trans.List     ( ListT    )
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Control\Monad\Trans\Resource\Internal.hs:264:46: warning: [-Wdeprecations]
+    In the use of type constructor or class `ListT'
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+264 | GO(ListT)
+    |                                              ^^^^^
+[3 of 5] Compiling Data.Acquire     ( Data\Acquire.hs, dist\dist-sandbox-37ba25ce\build\Data\Acquire.o )
+[4 of 5] Compiling Control.Monad.Trans.Resource ( Control\Monad\Trans\Resource.hs, dist\dist-sandbox-37ba25ce\build\Control\Monad\Trans\Resource.o )
+[5 of 5] Compiling UnliftIO.Resource ( UnliftIO\Resource.hs, dist\dist-sandbox-37ba25ce\build\UnliftIO\Resource.o )
+cabal: Leaving directory 'C:\cygwin64\tmp\cabal-tmp-3225\resourcet-1.2.2'

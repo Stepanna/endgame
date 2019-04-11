@@ -1,0 +1,32 @@
+Installing library in C:\Users\nyna-\Documents\Study\Pelevin\endgame\.cabal-sandbox\x86_64-windows-ghc-8.6.3\unix-time-0.4.5-HDRVGETo2bcDYyIhgFBVQm
+5ce\build\Data\UnixTime\Types.hs, dist\dist-sandbox-37ba25ce\build\Data\UnixTime\Types.o )
+[2 of 5] Compiling Data.UnixTime.Sys ( dist\dist-sandbox-37ba25ce\build\Data\UnixTime\Sys.hs, dist\dist-sandbox-37ba25ce\build\Data\UnixTime\Sys.o )
+[3 of 5] Compiling Data.UnixTime.Diff ( Data\UnixTime\Diff.hs, dist\dist-sandbox-37ba25ce\build\Data\UnixTime\Diff.o )
+[4 of 5] Compiling Data.UnixTime.Conv ( Data\UnixTime\Conv.hs, dist\dist-sandbox-37ba25ce\build\Data\UnixTime\Conv.o )
+
+Data\UnixTime\Conv.hs:11:1: warning: [-Wunused-imports]
+    The import of `Control.Applicative' is redundant
+      except perhaps to import instances from `Control.Applicative'
+    To import instances alone, use: import Control.Applicative()
+   |
+11 | import Control.Applicative
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[5 of 5] Compiling Data.UnixTime    ( Data\UnixTime.hs, dist\dist-sandbox-37ba25ce\build\Data\UnixTime.o )
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking xlocale.h usability... no
+checking xlocale.h presence... no
+checking for xlocale.h... no
+checking for strptime_l... no
+checking for timegm... no
+checking for _mkgmtime... yes
+checking for _get_current_locale... no
+checking for strtol_l... no
+checking for strtoll_l... no
+C:\/cygwin64/tmp/cabal-tmp-3227/unix-time-0.4.5/configure: line 3419: sort: No such file or directory
+C:\/cygwin64/tmp/cabal-tmp-3227/unix-time-0.4.5/configure: line 3416: sed: No such file or directory
+configure: creating ./config.status
+config.status: creating cbits/config.h
+C:\/cygwin64/tmp/cabal-tmp-3227/unix-time-0.4.5/configure: line 38: sort: No such file or directory
+C:\/cygwin64/tmp/cabal-tmp-3227/unix-time-0.4.5/configure: line 35: sed: No such file or directory
+cabal: Leaving directory 'C:\cygwin64\tmp\cabal-tmp-3227\unix-time-0.4.5'

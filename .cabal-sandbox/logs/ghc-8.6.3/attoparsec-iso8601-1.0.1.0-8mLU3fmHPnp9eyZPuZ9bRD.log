@@ -1,0 +1,12 @@
+Installing library in C:\Users\nyna-\Documents\Study\Pelevin\endgame\.cabal-sandbox\x86_64-windows-ghc-8.6.3\attoparsec-iso8601-1.0.1.0-8mLU3fmHPnp9eyZPuZ9bRD
+ta\Attoparsec\Time\Internal.hs, dist\dist-sandbox-37ba25ce\build\Data\Attoparsec\Time\Internal.o )
+
+Data\Attoparsec\Time\Internal.hs:24:1: warning: [-Wunused-imports]
+    The import of `Unsafe.Coerce' is redundant
+      except perhaps to import instances from `Unsafe.Coerce'
+    To import instances alone, use: import Unsafe.Coerce()
+   |
+24 | import Unsafe.Coerce (unsafeCoerce)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2 of 2] Compiling Data.Attoparsec.Time ( Data\Attoparsec\Time.hs, dist\dist-sandbox-37ba25ce\build\Data\Attoparsec\Time.o )
+cabal: Leaving directory 'C:\cygwin64\tmp\cabal-tmp-3227\attoparsec-iso8601-1.0.1.0'

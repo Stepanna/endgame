@@ -1,0 +1,4 @@
+Installing library in C:\Users\nyna-\Documents\Study\Pelevin\endgame\.cabal-sandbox\x86_64-windows-ghc-8.6.3\typed-process-0.2.4.0-D6x4RaAaSSiA0sPTGp5r0F
+-37ba25ce\build\autogen\Paths_typed_process.hs, dist\dist-sandbox-37ba25ce\build\Paths_typed_process.o )
+[2 of 2] Compiling System.Process.Typed ( src\System\Process\Typed.hs, dist\dist-sandbox-37ba25ce\build\System\Process\Typed.o )
+cabal: Leaving directory 'C:\cygwin64\tmp\cabal-tmp-3227\typed-process-0.2.4.0'

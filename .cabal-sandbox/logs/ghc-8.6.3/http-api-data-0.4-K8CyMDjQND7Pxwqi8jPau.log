@@ -1,0 +1,6 @@
+Installing library in C:\Users\nyna-\Documents\Study\Pelevin\endgame\.cabal-sandbox\x86_64-windows-ghc-8.6.3\http-api-data-0.4-K8CyMDjQND7Pxwqi8jPau
+l\HttpApiData.hs, dist\dist-sandbox-37ba25ce\build\Web\Internal\HttpApiData.o )
+[2 of 4] Compiling Web.Internal.FormUrlEncoded ( src\Web\Internal\FormUrlEncoded.hs, dist\dist-sandbox-37ba25ce\build\Web\Internal\FormUrlEncoded.o )
+[3 of 4] Compiling Web.FormUrlEncoded ( src\Web\FormUrlEncoded.hs, dist\dist-sandbox-37ba25ce\build\Web\FormUrlEncoded.o )
+[4 of 4] Compiling Web.HttpApiData  ( src\Web\HttpApiData.hs, dist\dist-sandbox-37ba25ce\build\Web\HttpApiData.o )
+cabal: Leaving directory 'C:\cygwin64\tmp\cabal-tmp-3224\http-api-data-0.4'

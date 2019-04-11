@@ -1,0 +1,5 @@
+Installing library in C:\Users\nyna-\Documents\Study\Pelevin\endgame\.cabal-sandbox\x86_64-windows-ghc-8.6.3\uuid-types-1.0.3-Autqzm2g4auIYSV6nkCRLV
+\Types\Internal\Builder.hs, dist\dist-sandbox-37ba25ce\build\Data\UUID\Types\Internal\Builder.o )
+[2 of 3] Compiling Data.UUID.Types.Internal ( Data\UUID\Types\Internal.hs, dist\dist-sandbox-37ba25ce\build\Data\UUID\Types\Internal.o )
+[3 of 3] Compiling Data.UUID.Types  ( Data\UUID\Types.hs, dist\dist-sandbox-37ba25ce\build\Data\UUID\Types.o )
+cabal: Leaving directory 'C:\cygwin64\tmp\cabal-tmp-3224\uuid-types-1.0.3'

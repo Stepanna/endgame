@@ -1,0 +1,7 @@
+Installing library in C:\Users\nyna-\Documents\Study\Pelevin\endgame\.cabal-sandbox\x86_64-windows-ghc-8.6.3\scientific-0.3.6.2-Fh5KwhDTkJp3K2933gCxvC
+t.hs, dist\dist-sandbox-37ba25ce\build\GHC\Integer\Compat.o )
+[2 of 5] Compiling Utils            ( src\Utils.hs, dist\dist-sandbox-37ba25ce\build\Utils.o )
+[3 of 5] Compiling Data.Scientific  ( src\Data\Scientific.hs, dist\dist-sandbox-37ba25ce\build\Data\Scientific.o )
+[4 of 5] Compiling Data.Text.Lazy.Builder.Scientific ( src\Data\Text\Lazy\Builder\Scientific.hs, dist\dist-sandbox-37ba25ce\build\Data\Text\Lazy\Builder\Scientific.o )
+[5 of 5] Compiling Data.ByteString.Builder.Scientific ( src\Data\ByteString\Builder\Scientific.hs, dist\dist-sandbox-37ba25ce\build\Data\ByteString\Builder\Scientific.o )
+cabal: Leaving directory 'C:\Users\nyna-\AppData\Local\Temp\cabal-tmp-3742\scientific-0.3.6.2'

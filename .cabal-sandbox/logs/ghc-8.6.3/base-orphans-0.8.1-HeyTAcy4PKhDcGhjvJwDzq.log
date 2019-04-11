@@ -1,0 +1,4 @@
+Installing library in C:\Users\nyna-\Documents\Study\Pelevin\endgame\.cabal-sandbox\x86_64-windows-ghc-8.6.3\base-orphans-0.8.1-HeyTAcy4PKhDcGhjvJwDzq
+st\dist-sandbox-37ba25ce\build\Data\Orphans.o )
+[2 of 2] Compiling Data.Orphans.Prelude ( src\Data\Orphans\Prelude.hs, dist\dist-sandbox-37ba25ce\build\Data\Orphans\Prelude.o )
+cabal: Leaving directory 'C:\Users\nyna-\AppData\Local\Temp\cabal-tmp-10267\base-orphans-0.8.1'

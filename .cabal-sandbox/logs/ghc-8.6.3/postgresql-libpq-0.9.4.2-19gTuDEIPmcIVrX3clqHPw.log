@@ -1,0 +1,5 @@
+Installing library in C:\Users\nyna-\Documents\Study\Pelevin\endgame\.cabal-sandbox\x86_64-windows-ghc-8.6.3\postgresql-libpq-0.9.4.2-19gTuDEIPmcIVrX3clqHPw
+ src\Database\PostgreSQL\LibPQ\Internal.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\LibPQ\Internal.o )
+[2 of 2] Compiling Database.PostgreSQL.LibPQ ( dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\LibPQ.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\LibPQ.o )
+gresql-libpq-0.9.4.2...
+cabal: Leaving directory 'C:\cygwin64\tmp\cabal-tmp-8373\postgresql-libpq-0.9.4.2'

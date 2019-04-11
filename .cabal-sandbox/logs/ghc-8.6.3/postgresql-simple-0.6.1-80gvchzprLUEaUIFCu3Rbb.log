@@ -1,0 +1,110 @@
+Installing library in C:\Users\nyna-\Documents\Study\Pelevin\endgame\.cabal-sandbox\x86_64-windows-ghc-8.6.3\postgresql-simple-0.6.1-80gvchzprLUEaUIFCu3Rbb
+ src\Database\PostgreSQL\Simple\Arrays.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\Arrays.o )
+
+src\Database\PostgreSQL\Simple\Arrays.hs:19:1: warning: [-Wunused-imports]
+    The import of `Data.Monoid' is redundant
+      except perhaps to import instances from `Data.Monoid'
+    To import instances alone, use: import Data.Monoid()
+   |
+19 | import           Data.Monoid
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[ 2 of 38] Compiling Database.PostgreSQL.Simple.Compat ( src\Database\PostgreSQL\Simple\Compat.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\Compat.o )
+
+src\Database\PostgreSQL\Simple\Compat.hs:15:1: warning: [-Wunused-imports]
+    The import of `Data.Monoid' is redundant
+      except perhaps to import instances from `Data.Monoid'
+    To import instances alone, use: import Data.Monoid()
+   |
+15 | import Data.Monoid
+   | ^^^^^^^^^^^^^^^^^^
+[ 3 of 38] Compiling Database.PostgreSQL.Simple.Ok ( src\Database\PostgreSQL\Simple\Ok.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\Ok.o )
+[ 4 of 38] Compiling Database.PostgreSQL.Simple.Time.Internal.Parser ( src\Database\PostgreSQL\Simple\Time\Internal\Parser.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\Time\Internal\Parser.o )
+[ 5 of 38] Compiling Database.PostgreSQL.Simple.Time.Internal.Printer ( src\Database\PostgreSQL\Simple\Time\Internal\Printer.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\Time\Internal\Printer.o )
+[ 6 of 38] Compiling Database.PostgreSQL.Simple.Time.Implementation ( src\Database\PostgreSQL\Simple\Time\Implementation.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\Time\Implementation.o )
+[ 7 of 38] Compiling Database.PostgreSQL.Simple.Time.Internal ( src\Database\PostgreSQL\Simple\Time\Internal.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\Time\Internal.o )
+[ 8 of 38] Compiling Database.PostgreSQL.Simple.Time ( src\Database\PostgreSQL\Simple\Time.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\Time.o )
+[ 9 of 38] Compiling Database.PostgreSQL.Simple.TypeInfo.Types ( src\Database\PostgreSQL\Simple\TypeInfo\Types.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\TypeInfo\Types.o )
+[10 of 38] Compiling Database.PostgreSQL.Simple.TypeInfo.Static ( src\Database\PostgreSQL\Simple\TypeInfo\Static.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\TypeInfo\Static.o )
+[11 of 38] Compiling Database.PostgreSQL.Simple.Types ( src\Database\PostgreSQL\Simple\Types.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\Types.o )
+[12 of 38] Compiling Database.PostgreSQL.Simple.TypeInfo.Macro ( src\Database\PostgreSQL\Simple\TypeInfo\Macro.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\TypeInfo\Macro.o )
+[13 of 38] Compiling Database.PostgreSQL.Simple.ToField[boot] ( src\Database\PostgreSQL\Simple\ToField.hs-boot, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\ToField.o-boot )
+[14 of 38] Compiling Database.PostgreSQL.Simple.ToRow[boot] ( src\Database\PostgreSQL\Simple\ToRow.hs-boot, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\ToRow.o-boot )
+[15 of 38] Compiling Database.PostgreSQL.Simple.ToField ( src\Database\PostgreSQL\Simple\ToField.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\ToField.o )
+[16 of 38] Compiling Database.PostgreSQL.Simple.ToRow ( src\Database\PostgreSQL\Simple\ToRow.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\ToRow.o )
+[17 of 38] Compiling Database.PostgreSQL.Simple.SqlQQ ( src\Database\PostgreSQL\Simple\SqlQQ.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\SqlQQ.o )
+[18 of 38] Compiling Database.PostgreSQL.Simple.Internal ( src\Database\PostgreSQL\Simple\Internal.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\Internal.o )
+
+src\Database\PostgreSQL\Simple\Internal.hs:37:1: warning: [-Wunused-imports]
+    The import of `Data.Monoid' is redundant
+      except perhaps to import instances from `Data.Monoid'
+    To import instances alone, use: import Data.Monoid()
+   |
+37 | import           Data.Monoid
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src\Database\PostgreSQL\Simple\Internal.hs:377:5: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In a case alternative:
+        Patterns not matched:
+            CopyBoth
+            SingleTuple
+    |
+377 |     case status of
+    |     ^^^^^^^^^^^^^^...
+[19 of 38] Compiling Database.PostgreSQL.Simple.Notification ( src\Database\PostgreSQL\Simple\Notification.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\Notification.o )
+
+src\Database\PostgreSQL\Simple\Notification.hs:40:1: warning: [-Wunused-imports]
+    The import of `catch' from module `Control.Exception' is redundant
+   |
+40 | import           Control.Exception ( throwIO, catch )
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src\Database\PostgreSQL\Simple\Notification.hs:134:5: warning: [-Wunused-local-binds]
+    Defined but not used: `setIOErrorLocation'
+    |
+134 |     setIOErrorLocation err = err { ioe_location = B8.unpack funcName }
+    |     ^^^^^^^^^^^^^^^^^^
+[20 of 38] Compiling Database.PostgreSQL.Simple.LargeObjects ( src\Database\PostgreSQL\Simple\LargeObjects.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\LargeObjects.o )
+[21 of 38] Compiling Database.PostgreSQL.Simple.Errors ( src\Database\PostgreSQL\Simple\Errors.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\Errors.o )
+
+src\Database\PostgreSQL\Simple\Errors.hs:28:1: warning: [-Wunused-imports]
+    The import of `Control.Applicative' is redundant
+      except perhaps to import instances from `Control.Applicative'
+    To import instances alone, use: import Control.Applicative()
+   |
+28 | import Control.Applicative
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[22 of 38] Compiling Database.PostgreSQL.Simple.Transaction ( src\Database\PostgreSQL\Simple\Transaction.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\Transaction.o )
+[23 of 38] Compiling Database.PostgreSQL.Simple.FromField[boot] ( src\Database\PostgreSQL\Simple\FromField.hs-boot, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\FromField.o-boot )
+[24 of 38] Compiling Database.PostgreSQL.Simple.FromRow[boot] ( src\Database\PostgreSQL\Simple\FromRow.hs-boot, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\FromRow.o-boot )
+[25 of 38] Compiling Database.PostgreSQL.Simple[boot] ( src\Database\PostgreSQL\Simple.hs-boot, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple.o-boot )
+[26 of 38] Compiling Database.PostgreSQL.Simple.TypeInfo ( src\Database\PostgreSQL\Simple\TypeInfo.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\TypeInfo.o )
+[27 of 38] Compiling Database.PostgreSQL.Simple.FromField ( src\Database\PostgreSQL\Simple\FromField.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\FromField.o )
+[28 of 38] Compiling Database.PostgreSQL.Simple.Range ( src\Database\PostgreSQL\Simple\Range.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\Range.o )
+[29 of 38] Compiling Database.PostgreSQL.Simple.Internal.PQResultUtils ( src\Database\PostgreSQL\Simple\Internal\PQResultUtils.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\Internal\PQResultUtils.o )
+[30 of 38] Compiling Database.PostgreSQL.Simple.HStore.Implementation ( src\Database\PostgreSQL\Simple\HStore\Implementation.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\HStore\Implementation.o )
+
+src\Database\PostgreSQL\Simple\HStore\Implementation.hs:37:1: warning: [-Wunused-imports]
+    The import of `Data.Semigroup' is redundant
+      except perhaps to import instances from `Data.Semigroup'
+    To import instances alone, use: import Data.Semigroup()
+   |
+37 | import           Data.Semigroup
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31 of 38] Compiling Database.PostgreSQL.Simple.HStore.Internal ( src\Database\PostgreSQL\Simple\HStore\Internal.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\HStore\Internal.o )
+[32 of 38] Compiling Database.PostgreSQL.Simple.HStore ( src\Database\PostgreSQL\Simple\HStore.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\HStore.o )
+[33 of 38] Compiling Database.PostgreSQL.Simple.FromRow ( src\Database\PostgreSQL\Simple\FromRow.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\FromRow.o )
+[34 of 38] Compiling Database.PostgreSQL.Simple.Cursor ( src\Database\PostgreSQL\Simple\Cursor.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\Cursor.o )
+[35 of 38] Compiling Database.PostgreSQL.Simple ( src\Database\PostgreSQL\Simple.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple.o )
+[36 of 38] Compiling Database.PostgreSQL.Simple.Copy ( src\Database\PostgreSQL\Simple\Copy.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\Copy.o )
+
+src\Database\PostgreSQL\Simple\Copy.hs:41:1: warning: [-Wunused-imports]
+    The import of `Control.Applicative' is redundant
+      except perhaps to import instances from `Control.Applicative'
+    To import instances alone, use: import Control.Applicative()
+   |
+41 | import           Control.Applicative
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[37 of 38] Compiling Database.PostgreSQL.Simple.Vector ( src\Database\PostgreSQL\Simple\Vector.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\Vector.o )
+[38 of 38] Compiling Database.PostgreSQL.Simple.Vector.Unboxed ( src\Database\PostgreSQL\Simple\Vector\Unboxed.hs, dist\dist-sandbox-37ba25ce\build\Database\PostgreSQL\Simple\Vector\Unboxed.o )
+cabal: Leaving directory 'C:\cygwin64\tmp\cabal-tmp-8372\postgresql-simple-0.6.1'

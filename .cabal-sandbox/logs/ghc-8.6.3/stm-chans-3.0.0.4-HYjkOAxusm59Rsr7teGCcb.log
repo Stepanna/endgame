@@ -1,0 +1,7 @@
+Installing library in C:\Users\nyna-\Documents\Study\Pelevin\endgame\.cabal-sandbox\x86_64-windows-ghc-8.6.3\stm-chans-3.0.0.4-HYjkOAxusm59Rsr7teGCcb
+\Concurrent\STM\TBChan.hs, dist\dist-sandbox-37ba25ce\build\Control\Concurrent\STM\TBChan.o )
+[2 of 5] Compiling Control.Concurrent.STM.TBMChan ( src\Control\Concurrent\STM\TBMChan.hs, dist\dist-sandbox-37ba25ce\build\Control\Concurrent\STM\TBMChan.o )
+[3 of 5] Compiling Control.Concurrent.STM.TBMQueue ( src\Control\Concurrent\STM\TBMQueue.hs, dist\dist-sandbox-37ba25ce\build\Control\Concurrent\STM\TBMQueue.o )
+[4 of 5] Compiling Control.Concurrent.STM.TMChan ( src\Control\Concurrent\STM\TMChan.hs, dist\dist-sandbox-37ba25ce\build\Control\Concurrent\STM\TMChan.o )
+[5 of 5] Compiling Control.Concurrent.STM.TMQueue ( src\Control\Concurrent\STM\TMQueue.hs, dist\dist-sandbox-37ba25ce\build\Control\Concurrent\STM\TMQueue.o )
+cabal: Leaving directory 'C:\cygwin64\tmp\cabal-tmp-3226\stm-chans-3.0.0.4'

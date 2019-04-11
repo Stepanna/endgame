@@ -1,0 +1,5 @@
+Installing library in C:\Users\nyna-\Documents\Study\Pelevin\endgame\.cabal-sandbox\x86_64-windows-ghc-8.6.3\case-insensitive-1.2.0.11-LNzmAWfaV4DDuYZvHeB9eK
+a\CaseInsensitive\Internal.hs, dist\dist-sandbox-37ba25ce\build\Data\CaseInsensitive\Internal.o )
+[2 of 3] Compiling Data.CaseInsensitive ( Data\CaseInsensitive.hs, dist\dist-sandbox-37ba25ce\build\Data\CaseInsensitive.o )
+[3 of 3] Compiling Data.CaseInsensitive.Unsafe ( Data\CaseInsensitive\Unsafe.hs, dist\dist-sandbox-37ba25ce\build\Data\CaseInsensitive\Unsafe.o )
+cabal: Leaving directory 'C:\Users\nyna-\AppData\Local\Temp\cabal-tmp-10267\case-insensitive-1.2.0.11'

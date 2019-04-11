@@ -1,0 +1,63 @@
+Installing library in C:\Users\nyna-\Documents\Study\Pelevin\endgame\.cabal-sandbox\x86_64-windows-ghc-8.6.3\mono-traversable-1.0.11.0-26CXdccOYdV7gOzjRRdcSQ
+oTraversable.hs, dist\dist-sandbox-37ba25ce\build\Data\MonoTraversable.o )
+
+src\Data\MonoTraversable.hs:48:1: warning: [-Wdodgy-imports]
+    The import item `V1(..)' suggests that
+    `V1' has (in-scope) constructors or class methods,
+    but it has none
+   |
+48 | import           GHC.Generics         ((:.:), (:*:), (:+:)(..), K1(..), M1(..), Par1(..), Rec1(..), U1(..), V1(..))
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src\Data\MonoTraversable.hs:72:1: warning: [-Wdeprecations]
+    Module `Control.Monad.Trans.List' is deprecated:
+      This transformer is invalid on most monads
+   |
+72 | import Control.Monad.Trans.List (ListT)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+src\Data\MonoTraversable.hs:128:24: warning: [-Wdeprecations]
+    In the use of type constructor or class `ListT'
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+128 | type instance Element (ListT m a) = a
+    |                        ^^^^^
+
+src\Data\MonoTraversable.hs:198:36: warning: [-Wdeprecations]
+    In the use of type constructor or class `ListT'
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+198 | instance Functor m => MonoFunctor (ListT m a)
+    |                                    ^^^^^
+
+src\Data\MonoTraversable.hs:801:40: warning: [-Wdeprecations]
+    In the use of type constructor or class `ListT'
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+801 | instance F.Foldable f => MonoFoldable (ListT f a)
+    |                                        ^^^^^
+
+src\Data\MonoTraversable.hs:1099:44: warning: [-Wdeprecations]
+    In the use of type constructor or class `ListT'
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+     |
+1099 | instance Traversable f => MonoTraversable (ListT f a)
+     |                                            ^^^^^
+
+src\Data\MonoTraversable.hs:1209:40: warning: [-Wdeprecations]
+    In the use of type constructor or class `ListT'
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+     |
+1209 | instance Applicative m => MonoPointed (ListT m a)
+     |                                        ^^^^^
+[2 of 6] Compiling Data.Containers  ( src\Data\Containers.hs, dist\dist-sandbox-37ba25ce\build\Data\Containers.o )
+[3 of 6] Compiling Data.MonoTraversable.Unprefixed ( src\Data\MonoTraversable\Unprefixed.hs, dist\dist-sandbox-37ba25ce\build\Data\MonoTraversable\Unprefixed.o )
+[4 of 6] Compiling Data.Sequences   ( src\Data\Sequences.hs, dist\dist-sandbox-37ba25ce\build\Data\Sequences.o )
+[5 of 6] Compiling Data.NonNull     ( src\Data\NonNull.hs, dist\dist-sandbox-37ba25ce\build\Data\NonNull.o )
+[6 of 6] Compiling Paths_mono_traversable ( dist\dist-sandbox-37ba25ce\build\autogen\Paths_mono_traversable.hs, dist\dist-sandbox-37ba25ce\build\Paths_mono_traversable.o )
+cabal: Leaving directory 'C:\cygwin64\tmp\cabal-tmp-3227\mono-traversable-1.0.11.0'

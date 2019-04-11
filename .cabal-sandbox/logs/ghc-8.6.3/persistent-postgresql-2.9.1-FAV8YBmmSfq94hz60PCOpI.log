@@ -1,0 +1,4 @@
+Installing library in C:\Users\nyna-\Documents\Study\Pelevin\endgame\.cabal-sandbox\x86_64-windows-ghc-8.6.3\persistent-postgresql-2.9.1-FAV8YBmmSfq94hz60PCOpI
+abase\Persist\Postgresql.hs, dist\dist-sandbox-37ba25ce\build\Database\Persist\Postgresql.o )
+[2 of 2] Compiling Database.Persist.Postgresql.JSON ( Database\Persist\Postgresql\JSON.hs, dist\dist-sandbox-37ba25ce\build\Database\Persist\Postgresql\JSON.o )
+cabal: Leaving directory 'C:\cygwin64\tmp\cabal-tmp-8372\persistent-postgresql-2.9.1'
