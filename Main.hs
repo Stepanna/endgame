@@ -95,7 +95,7 @@ module Main where
         liftIO $ sequence_ [makeFilter3("uploads" </> fn) | (_,fn,_) <- fs']
         let ref = toValue $ mconcat [  fn | (fName,fn,_) <- fs']
         S.html $ do
-          renderHtml $ layout "bright"  do
+          renderHtml $ layout "negativ"  do
           div ! class_ "container" $ do
             div ! class_ "jumbotron" $ do
               h2 $ a ! href ref $ "result"
