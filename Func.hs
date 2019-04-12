@@ -46,8 +46,11 @@ rotateImg img@M.Image {..} = runST $ do
            | x >= imageWidth  = go 0 (y + 1)
            | y >= imageHeight = M.unsafeFreezeImage mimg  --unsafe convert a mutable image to an immutable
            | otherwise = do
-               writePixel mimg x y  (pixelAt img x y)
-               go (x + 1) y
+             writePixel mimg
+                (imageWidth - x - 1)
+                (imageHeight - y - 1)
+                (pixelAt img x y)
+             go (x + 1) y
     go 0 0
 
 
